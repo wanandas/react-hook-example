@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import UseStateExample from './components/use-state-example/use-state-example.component';
+import UseStateExample from "./components/use-state-example/use-state-example.component";
 
-import './App.css';
+import "./App.css";
 
 const App = props => {
-  return <UseStateExample />;
+  return (
+    <div className="App">
+      <UseStateExample />;
+    </div>
+  );
 };
 
 export default App;
